@@ -1,0 +1,14 @@
+.ArtistsList{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.ArtistsList .Artist{
+  background-color: #efefef;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  overflow-wrap: break-word;
+}
